@@ -1,0 +1,241 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #F3E6D3;
+    font-family: 'Roboto', sans-serif;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 50px;
+    margin: 20px;
+}
+
+.navbar {
+    background-color: #D76564;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navlink {
+    color: #f2e9e9;
+    text-decoration: none;
+    padding: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.navlink:hover {
+    background-color: #DA5131;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 300px; 
+    width: 50vw;
+    gap: 20px;
+    margin: 0 auto;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.imagem {
+    width: 600px;
+    height: 600px;
+    display: block; 
+    margin: 0 auto;
+    border: 5px solid #D76564; 
+    border-radius: 20px; 
+}
+
+footer {
+    background-color: #D76564; 
+    padding: 20px;
+    text-align: center;
+    border-top: 3px solid #d87ca6; 
+}
+footer .social-icons a {
+    margin: 0 10px;
+    color: #f289b8; 
+    text-decoration: none;
+    font-size: 24px; 
+}
+footer p {
+    margin: 10px 0;
+    color: #333;
+}
+
+.caixa {
+    width: 80%;
+    margin: 50px auto;
+}
+.feedback {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.feedback h3 {
+    font-size: 1.5em;
+    color: #333;
+}
+.rating {
+    color: #f39c12;
+    margin-bottom: 10px;
+}
+.rating span {
+    font-size: 1.2em;
+}
+.comment {
+    font-size: 1em;
+    color: #555;
+}
+.feedback p {
+    margin: 5px 0;
+}
+.feedback .stars {
+    font-size: 1.5em;
+}
+.stars i {
+    color: #f39c12;
+}
+
+.container2 {
+    width: 80%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product-card h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #333;
+}
+
+.product-card p {
+    font-size: 1em;
+    color: #555;
+    margin: 10px 0;
+    flex-grow: 1;
+}
+
+.product-card .price {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #e74c3c;
+    margin: 10px 0;
+}
+
+.product-card .add-to-cart {
+    background-color: #27ae60;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: center;
+}
+
+.product-card .add-to-cart:hover {
+    background-color: #2ecc71;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.contatos {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    width: 50vw;
+    gap: 10px;
+    margin: 0 auto;
+    font-size: 25px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-size: 1em;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"], 
+input[type="email"], 
+input[type="password"], 
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    color: #333;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.btn {
+    background-color: #D76564; 
+    color: #fff;
+    padding: 15px 20px; 
+    font-size: 1em; 
+    border: none;
+    border-radius: 50px; 
+    cursor: pointer; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: all 0.3s ease; 
+}
+
+.btn:hover {
+    background-color: red; 
+    transform: translateY(-2px); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+    transform: translateY(1px); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
